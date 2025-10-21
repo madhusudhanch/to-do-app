@@ -1,3 +1,8 @@
+## Live Demo
+Play the game online: [To-Do App](https://madhusudhanch.github.io/to-do-app/)
+
+---
+
 # ✅ To-Do App
 
 A simple and interactive **To-Do App** built using **HTML, CSS, and JavaScript**.  
