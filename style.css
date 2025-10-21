@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Cabin", sans-serif;
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.187);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.5);
+    width: 350px;
+}
+
+.input-container {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 14.5px;
+}
+
+input::placeholder {
+    color: rgb(0, 0, 0);
+
+}
+
+button {
+    padding: 10px;
+    width: 35%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+li {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 6px 9px;
+    cursor: pointer;
+    width: 25%;
+  }
